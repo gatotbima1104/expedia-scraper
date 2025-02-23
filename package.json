@@ -1,0 +1,27 @@
+{
+  "name": "expedia-hotels",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon index.ts",
+    "test": "nodemon test.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@2captcha/captcha-solver": "^1.3.0",
+    "@types/random-useragent": "^0.3.3",
+    "@types/readline-sync": "^1.4.8",
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "fs": "^0.0.1-security",
+    "puppeteer": "^24.2.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "random-useragent": "^0.5.0",
+    "readline": "^1.3.0",
+    "readline-sync": "^1.4.10"
+  }
+}
